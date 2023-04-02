@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Shih-hsuan Yen Portfolio</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alex Hoch">
+    <meta name="date"   content="2022-12-02T">
+    <meta name="copyright" content="shih-hsuan yen" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-12/css/all.min.css">
+    <link rel="stylesheet"  media="screen and (min-width:800px) and (max-width:2000px)" href="css/main.css">
+    <link rel="stylesheet" media="screen and (min-width:1px) and (max-width:800px)" href="css/mobil.css">
+    <script type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="home" class="headerBox">
+
+        <div class="navBox desktop">
+            
+            <div class="linksBox">
+                <a href="https://de.linkedin.com/in/yen-shih-hsuan-81886a207" id="linkedinlinkBtn" class="linkBtns" target="_blank"></a>
+                <a href="https://www.instagram.com/shixuan.yan/" id="inslinkBtn" class="linkBtns" target="_blank"></a>
+                <a href="https://www.behance.net/shihhsuanyen" id="BehancelinkBtn" class="linkBtns" target="_blank"><a>
+            </div>   
+
+            <ul class="menuBox">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projectBox">Project</a></li>
+                <li><a href="#aboutBox">About</a></li>                                          
+                <li><a href="#contactBox">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="mobil">
+            
+            <a id="clickBtn"><i class="fas fa-bars" style="font-size: 28px;"></i></a>
+            
+            <ul id="home" class="menu-mobil">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projectBox">Project</a></li>
+                <li><a href="#aboutBox">About</a></li>                                          
+                <li><a href="#contactBox">Contact</a></li>
+            </ul>
+            
+        </div>
+
+        <script type="text/javascript">
+
+            $(".menu-mobil").hide();
+  
+            $("#clickBtn").click(function(){
+              console.log("toll");
+              // $(".menu-mobil").css({display:'block'});
+              //$(".menu-mobil").show();
+              $(".menu-mobil").fadeToggle();
+            })
+        </script>
+
+        
+        <div class="headlineBox">
+            <h1 class="headerTitle">Shih-Hsuan Yen <br> Photography</h1>
+        </div>
+        <h3 id="headerTxt">Based in Bremen, DE</h3>
+    </div>
+
+    <div class="siteBoxes">
+        <div class="projectIntroBox">
+            <div id="pictureBox1">
+                <div id="picture1"></div>
+                <p class="projectIntro">Fine-art Photography</p>
+                <h3 class="introTxt">Water</h3>
+                <a class="exploreBtn" href="#">Explore Project &#8594;</a>
+            </div>
+            
+            <div id="pictureBox2">
+                <div id="picture2"></div>
+                <p class="projectIntro">Documentary Photography</p>
+                <h3 class="introTxt">The Good Wife</h3>
+                <a class="exploreBtn" href="#">Explore Project &#8594;</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="pictureBox3" class="siteBoxes">
+        <div id="picture3"></div>
+        <p class="projectIntro">Documentary Photography</p>
+        <h3 class="introTxt">Nearby Nature</h3>
+        <a class="exploreBtn" href="#">Explore Project &#8594;</a>
+    </div>
+
+    <div id="aboutBox" class="siteBoxes">
+        <br><br><br><br><br><br>
+        <h2 class="inhaltTitles">About</h2>
+        <br><br>
+        <h2 class="descriptionTxts">Hey,I'm Shih-hsuan Yen, a freelance photographer based in Bremen. <br> My projects focuses on
+                documentary photography, with a particular <br> interest in feminist issues and the relationship between nature and humans.</h2>
+        <br><br>
+        <hr style="width: 80%; margin: auto;">
+        <br>
+        <div class="BtnBox">
+            <a href="download/helloworld.pdf" class="Btns" target="_blank">Download CV</a>
+            <a href="#projectBox" class="Btns">See all works</a>
+            <a href="#contactBox" class="Btns">Get in touch</a>
+        </div>
+        <br><br><br><br><br><br>
+    </div>
+
+    
+    <div class="space80"></div>
+    <br><br><br>
+    <div id="projectBox" class="siteBoxes">
+        <h2 class="inhaltTitles">Project</h2>
+        <br><br>
+        <div class="inBox">
+            <div id="project1" class="projects">
+                <img class="projectImgs" src="img/Masterarbeit-shihhsuan-7.jpg" alt="The Good Wife">
+                <div class="img_tip">The Good Wife <br>2020-2021</div>  
+            </div>
+
+            <div id="project2" class="projects">
+                <img class="projectImgs" src="img/Nearby_Nature-Yen-Park-3754.jpg" alt="Nearby Nature">
+                <div class="img_tip">Nearby Nature <br>2020-2022</div>
+            </div>
+
+            <div id="project3" class="projects">
+                <img class="projectImgs" src="img/Sarajevo-dritte Auswahl-2.jpg" alt="Verstummende Wörter">
+                <div class="img_tip">Verstummende Wörter<br>2019</div>
+            </div>
+
+            <div id="project4" class="projects">
+                <img class="projectImgs" src="img/Nearby Nature-shihhsuan-4.jpg" alt="Nearby Nature-Taiwan">
+                <div class="img_tip">Nearby Nature-Taiwan <br>2019</div>
+            </div>
+
+            <div id="project5" class="projects">
+                <img class="projectImgs" src="img/Norderney-dritte Auswahl-1.jpg" alt="Lost in the sand">
+                <div class="img_tip">Lost in the sand<br>2019</div>
+            </div>
+
+            <div id="project6" class="projects">
+                <img class="projectImgs" src="img/mode.JPG" alt="Fashion">
+                <div class="img_tip">Fashion<br>2020</div>
+            </div>
+
+            <div id="project7" class="projects">
+                <img class="projectImgs" src="img/Kollketivum_00.jpg" alt="Studio Magazine">
+                <div class="img_tip">Studio Magazine-Kollektivum<br>2018</div>
+            </div>
+
+            <div id="project8" class="projects">
+                <img class="projectImgs" src="img/face.jpg" alt="Face">
+                <div class="img_tip">Face<br>2014</div>
+            </div>
+
+            <div id="project9" class="projects">
+                <img class="projectImgs" src="img/Detail 2.JPG" alt="Die Zeit in der Schachtel">
+                <div class="img_tip">Die Zeit in der Schachtel<br>2015</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="space80"></div>
+    <br><br>
+    <div class="pictureBoxes siteBoxes">
+        <p class="imgTxt">Lost in the sand, Norderney 2019</p>
+    </div>
+
+    <div id="contactBox" class="siteBoxes">
+        <br><br><br><br><br>
+        <h2 class="inhaltTitles">Contact</h2>
+        <br><br><br>
+        <div class="contactInfo">
+            <img id="contactImg" src="img/school.jpg" alt="Norderney">
+            <div class="message">
+                <form  action="mailto:fake@gmail.com" enctype="text/plain">
+                    <p id="infoTxt">Think we might be a good fit for your upcoming project? Reach out — we’d love to talk details and see how we can help.</p>
+                    <br>
+                    <p class="contactTxt">Name</p>
+                    <input type="text" name="name" value="your full name">
+                    <p class="contactTxt">E-Mail</p>
+                    <input type="text" name="E-mail" value="your e-mail">
+                    <p class="contactTxt">Message</p>
+                    <textarea name="message" id="" cols="30" rows="10">your message</textarea>
+                    <br><br>
+                    <input type="submit" value="Send message">
+                </form> 
+            </div> 
+        
+        </div>
+    </div>
+    
+    <div class="goTop">
+        <a href="#home"><i class="far fa-arrow-alt-circle-up" style="font-size: 30px;"></i></a>
+    </div>
+
+    <div class="footerBox">
+        <br><br>
+        <div class="container"> 
+            <p class="footerTxt">Shih-Hsuan Yen &copy; 2022</p>
+        </div> 
+    </div>
+    
+</body>
+</html>
